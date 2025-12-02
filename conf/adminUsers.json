@@ -1,0 +1,61 @@
+{
+  "productVersion" : "7.7.0",
+  "version" : 3,
+  "timestamp" : 1732541466776,
+  "adminUsers" : [ {
+    "id" : "user-1",
+    "name" : "admin",
+    "roles" : [ "role-1", "role-6", "role-7" ]
+  }, {
+    "id" : "user-2",
+    "name" : "admin_agents",
+    "roles" : [ "role-1", "role-6", "role-7" ]
+  } ],
+  "adminUserCredentials" : {
+    "user-1" : {
+      "passwordHistory" : [ "$AAGQAAAAAQAC$njAFVrVdfz+I8gk2AHfOGA==$lLH0Ipt7N5kHmIFc71NxPvYUSWQ1huGwBnIX8OssEwk=" ],
+      "passwordTimestamp" : 1727810688892
+    },
+    "user-2" : {
+      "passwordHistory" : [ "$AAGQAAAAAQAC$k0PAZCau5gZ7ylDvuqgjyw==$cVuOHpgIwCMUkyIZLEh56+d82nbMuLEEdD3BEpqZfG4=" ],
+      "passwordTimestamp" : 1732541466776
+    }
+  },
+  "adminUserRoles" : [ {
+    "id" : "role-1",
+    "name" : "API Server Administrator",
+    "displayName" : "API Gateway Administrator"
+  }, {
+    "id" : "role-2",
+    "name" : "API Server Operator",
+    "displayName" : "API Gateway Operator"
+  }, {
+    "id" : "role-5",
+    "name" : "Deployer",
+    "displayName" : "Deployer"
+  }, {
+    "id" : "role-6",
+    "name" : "KPS Administrator",
+    "displayName" : "KPS Administrator"
+  }, {
+    "id" : "role-7",
+    "name" : "Policy Developer",
+    "displayName" : "Policy Developer"
+  }, {
+    "id" : "role-8",
+    "name" : "CN=GD-APIGM-BR02-HML-API-Gateway-Administrator,OU=APIM,OU=Grupos,OU=Administracao,OU=BR02,DC=D92,DC=tes,DC=local",
+    "displayName" : "GD-APIGM-BR02-HML-API-Gateway-Administrator"  
+  }, {
+    "id" : "role-9",
+    "name" : "CN=GD-APIGM-BR02-HML-API-Gateway-Operator,OU=APIM,OU=Grupos,OU=Administracao,OU=BR02,DC=D92,DC=tes,DC=local",
+    "displayName" : "GD-APIGM-BR02-HML-API-Gateway-Operator"  
+  } ],
+  "uniqueIdCounters" : {
+    "Role" : 10,
+    "User" : 3
+  },
+  "adminUsersVersion" : {
+    "version" : 3,
+    "timestamp" : 1732541466776
+  }
+}
